@@ -1,0 +1,508 @@
+2025-03-10 16:19:32,987 - ERROR - Error loading config: [Errno 2] No such file or directory: 'config/config.yml'
+2025-03-10 16:20:06,131 - INFO - Calculating risk metrics for security_id 7
+2025-03-10 16:20:08,685 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 16:20:08,687 - INFO - Calculating risk metrics for security_id 8
+2025-03-10 16:20:08,710 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 16:20:08,712 - INFO - Calculating risk metrics for security_id 9
+2025-03-10 16:20:08,750 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 16:20:08,751 - INFO - Calculating risk metrics for security_id 10
+2025-03-10 16:20:08,776 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 16:20:08,779 - INFO - Calculating risk metrics for security_id 11
+2025-03-10 16:20:08,804 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 16:20:08,805 - INFO - Calculating risk metrics for security_id 12
+2025-03-10 16:20:08,833 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 16:20:08,835 - INFO - Calculating risk metrics for security_id 13
+2025-03-10 16:20:08,858 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 16:20:08,860 - INFO - Calculating risk metrics for security_id 14
+2025-03-10 16:20:08,883 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 16:20:08,885 - INFO - Completed risk metrics calculation. Total metrics saved: 0
+2025-03-10 16:22:57,915 - INFO - Calculating risk metrics for security_id 7
+2025-03-10 16:22:58,707 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (7, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 16:22:58,708 - INFO - Calculating risk metrics for security_id 8
+2025-03-10 16:22:58,738 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (8, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 16:22:58,740 - INFO - Calculating risk metrics for security_id 9
+2025-03-10 16:22:58,776 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (9, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 16:22:58,801 - INFO - Calculating risk metrics for security_id 10
+2025-03-10 16:22:58,859 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (10, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:22:58,869 - INFO - Calculating risk metrics for security_id 11
+2025-03-10 16:22:58,901 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (11, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:22:58,915 - INFO - Calculating risk metrics for security_id 12
+2025-03-10 16:22:58,955 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (12, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:22:58,971 - INFO - Calculating risk metrics for security_id 13
+2025-03-10 16:22:58,993 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (13, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:22:58,999 - INFO - Calculating risk metrics for security_id 14
+2025-03-10 16:22:59,029 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (14, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:22:59,031 - INFO - Completed risk metrics calculation. Total metrics saved: 0
+2025-03-10 16:27:26,986 - INFO - Calculating risk metrics for security_id 7
+2025-03-10 16:27:27,643 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (7, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 16:27:27,644 - INFO - Calculating risk metrics for security_id 8
+2025-03-10 16:27:27,665 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (8, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 16:27:27,667 - INFO - Calculating risk metrics for security_id 9
+2025-03-10 16:27:27,691 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (9, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 16:27:27,693 - INFO - Calculating risk metrics for security_id 10
+2025-03-10 16:27:27,714 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (10, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:27:27,716 - INFO - Calculating risk metrics for security_id 11
+2025-03-10 16:27:27,737 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (11, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:27:27,739 - INFO - Calculating risk metrics for security_id 12
+2025-03-10 16:27:27,760 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (12, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:27:27,762 - INFO - Calculating risk metrics for security_id 13
+2025-03-10 16:27:27,782 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (13, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:27:27,784 - INFO - Calculating risk metrics for security_id 14
+2025-03-10 16:27:27,808 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (14, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:27:27,810 - INFO - Completed risk metrics calculation. Total metrics saved: 0
+2025-03-10 16:29:26,179 - INFO - Calculating risk metrics for security_id 7
+2025-03-10 16:29:26,836 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (7, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 16:29:26,838 - INFO - Calculating risk metrics for security_id 8
+2025-03-10 16:29:26,860 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (8, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 16:29:26,862 - INFO - Calculating risk metrics for security_id 9
+2025-03-10 16:29:26,883 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (9, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 16:29:26,885 - INFO - Calculating risk metrics for security_id 10
+2025-03-10 16:29:26,906 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (10, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:29:26,907 - INFO - Calculating risk metrics for security_id 11
+2025-03-10 16:29:26,929 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (11, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:29:26,931 - INFO - Calculating risk metrics for security_id 12
+2025-03-10 16:29:26,953 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (12, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:29:26,955 - INFO - Calculating risk metrics for security_id 13
+2025-03-10 16:29:26,976 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (13, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:29:26,978 - INFO - Calculating risk metrics for security_id 14
+2025-03-10 16:29:26,998 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (14, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:29:27,000 - INFO - Completed risk metrics calculation. Total metrics saved: 0
+2025-03-10 16:34:36,784 - INFO - Calculating risk metrics for security_id 7
+2025-03-10 16:34:37,534 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (7, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 16:34:37,534 - INFO - Calculating risk metrics for security_id 8
+2025-03-10 16:34:37,553 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (8, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 16:34:37,555 - INFO - Calculating risk metrics for security_id 9
+2025-03-10 16:34:37,577 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (9, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 16:34:37,579 - INFO - Calculating risk metrics for security_id 10
+2025-03-10 16:34:37,600 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (10, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:34:37,601 - INFO - Calculating risk metrics for security_id 11
+2025-03-10 16:34:37,622 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (11, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:34:37,625 - INFO - Calculating risk metrics for security_id 12
+2025-03-10 16:34:37,645 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (12, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:34:37,647 - INFO - Calculating risk metrics for security_id 13
+2025-03-10 16:34:37,667 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (13, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:34:37,669 - INFO - Calculating risk metrics for security_id 14
+2025-03-10 16:34:37,695 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (14, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 16:34:37,697 - INFO - Completed risk metrics calculation. Total metrics saved: 0
+2025-03-10 16:48:50,350 - ERROR - Database error: (psycopg2.OperationalError) could not translate host name "1234@localhost" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-10 16:48:50,351 - ERROR - Fatal error: (psycopg2.OperationalError) could not translate host name "1234@localhost" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-10 16:56:49,186 - ERROR - Database error: (psycopg2.OperationalError) could not translate host name "1234@localhost" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-10 16:56:49,200 - ERROR - Fatal error: (psycopg2.OperationalError) could not translate host name "1234@localhost" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-10 16:57:37,079 - ERROR - Database error: (psycopg2.OperationalError) could not translate host name "1234@localhost" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-10 16:57:37,079 - ERROR - Fatal error: (psycopg2.OperationalError) could not translate host name "1234@localhost" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-10 16:59:08,972 - ERROR - Database error: (psycopg2.errors.UndefinedColumn) column "status" does not exist
+LINE 1: SELECT id FROM securities WHERE status = 'active'
+                                        ^
+
+[SQL: SELECT id FROM securities WHERE status = 'active']
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2025-03-10 16:59:08,977 - ERROR - Fatal error: (psycopg2.errors.UndefinedColumn) column "status" does not exist
+LINE 1: SELECT id FROM securities WHERE status = 'active'
+                                        ^
+
+[SQL: SELECT id FROM securities WHERE status = 'active']
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2025-03-10 16:59:31,904 - ERROR - Database error: (psycopg2.errors.UndefinedColumn) column "status" does not exist
+LINE 1: SELECT id FROM securities WHERE status = 'active'
+                                        ^
+
+[SQL: SELECT id FROM securities WHERE status = 'active']
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2025-03-10 16:59:31,940 - ERROR - Fatal error: (psycopg2.errors.UndefinedColumn) column "status" does not exist
+LINE 1: SELECT id FROM securities WHERE status = 'active'
+                                        ^
+
+[SQL: SELECT id FROM securities WHERE status = 'active']
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2025-03-10 17:01:49,649 - INFO - Completed. Total metrics updated: 0
+2025-03-10 17:03:54,109 - INFO - Completed. Total metrics updated: 0
+2025-03-10 17:11:29,244 - INFO - Completed. Total metrics updated: 0
+2025-03-10 17:46:24,213 - ERROR - Database error: (psycopg2.OperationalError) could not translate host name "1234@localhost" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-10 17:46:24,250 - ERROR - Fatal error: (psycopg2.OperationalError) could not translate host name "1234@localhost" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-10 17:46:33,587 - ERROR - Database error: (psycopg2.OperationalError) could not translate host name "1234@localhost" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-10 17:46:33,588 - ERROR - Fatal error: (psycopg2.OperationalError) could not translate host name "1234@localhost" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-10 17:49:11,639 - ERROR - Error loading config: [Errno 2] No such file or directory: 'config/config.yml'
+2025-03-10 17:49:32,909 - INFO - Calculating risk metrics for security_id 7
+2025-03-10 17:49:34,189 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 17:49:34,189 - INFO - Calculating risk metrics for security_id 8
+2025-03-10 17:49:34,208 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 17:49:34,209 - INFO - Calculating risk metrics for security_id 9
+2025-03-10 17:49:34,229 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 17:49:34,231 - INFO - Calculating risk metrics for security_id 10
+2025-03-10 17:49:34,254 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 17:49:34,256 - INFO - Calculating risk metrics for security_id 11
+2025-03-10 17:49:34,284 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 17:49:34,286 - INFO - Calculating risk metrics for security_id 12
+2025-03-10 17:49:34,307 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 17:49:34,309 - INFO - Calculating risk metrics for security_id 13
+2025-03-10 17:49:34,331 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 17:49:34,333 - INFO - Calculating risk metrics for security_id 14
+2025-03-10 17:49:34,354 - ERROR - Error saving risk metrics: syntax error at or near "window"
+LINE 3:             (security_id, date, window, var_95, var_99, cvar...
+                                        ^
+
+2025-03-10 17:49:34,356 - INFO - Completed risk metrics calculation. Total metrics saved: 0
+2025-03-10 17:51:35,962 - INFO - Calculating risk metrics for security_id 7
+2025-03-10 17:51:36,888 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (7, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 17:51:36,890 - INFO - Calculating risk metrics for security_id 8
+2025-03-10 17:51:36,918 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (8, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 17:51:36,920 - INFO - Calculating risk metrics for security_id 9
+2025-03-10 17:51:36,950 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (9, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 17:51:36,952 - INFO - Calculating risk metrics for security_id 10
+2025-03-10 17:51:36,989 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (10, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 17:51:36,991 - INFO - Calculating risk metrics for security_id 11
+2025-03-10 17:51:37,025 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (11, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 17:51:37,027 - INFO - Calculating risk metrics for security_id 12
+2025-03-10 17:51:37,055 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (12, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 17:51:37,056 - INFO - Calculating risk metrics for security_id 13
+2025-03-10 17:51:37,090 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (13, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 17:51:37,093 - INFO - Calculating risk metrics for security_id 14
+2025-03-10 17:51:37,121 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (14, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 17:51:37,123 - INFO - Completed risk metrics calculation. Total metrics saved: 0
+2025-03-10 17:51:41,683 - INFO - Calculating risk metrics for security_id 7
+2025-03-10 17:51:42,455 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (7, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 17:51:42,456 - INFO - Calculating risk metrics for security_id 8
+2025-03-10 17:51:42,478 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (8, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 17:51:42,480 - INFO - Calculating risk metrics for security_id 9
+2025-03-10 17:51:42,507 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (9, '2025-03-10'::date, 30, np.float64(-0...
+                                                       ^
+
+2025-03-10 17:51:42,508 - INFO - Calculating risk metrics for security_id 10
+2025-03-10 17:51:42,535 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (10, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 17:51:42,537 - INFO - Calculating risk metrics for security_id 11
+2025-03-10 17:51:42,560 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (11, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 17:51:42,561 - INFO - Calculating risk metrics for security_id 12
+2025-03-10 17:51:42,586 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (12, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 17:51:42,588 - INFO - Calculating risk metrics for security_id 13
+2025-03-10 17:51:42,611 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (13, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 17:51:42,612 - INFO - Calculating risk metrics for security_id 14
+2025-03-10 17:51:42,633 - ERROR - Error saving risk metrics: schema "np" does not exist
+LINE 5:             VALUES (14, '2025-03-10'::date, 30, np.float64(-...
+                                                        ^
+
+2025-03-10 17:51:42,636 - INFO - Completed risk metrics calculation. Total metrics saved: 0
+2025-03-10 17:52:48,449 - INFO - Calculating risk metrics for security_id 7
+2025-03-10 17:52:48,619 - ERROR - An error occurred: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+2025-03-10 17:53:31,556 - INFO - Calculating risk metrics for security_id 7
+2025-03-10 17:53:31,892 - INFO - Saved 3 risk metrics
+2025-03-10 17:53:31,893 - INFO - Calculating risk metrics for security_id 8
+2025-03-10 17:53:31,913 - INFO - Saved 3 risk metrics
+2025-03-10 17:53:31,915 - INFO - Calculating risk metrics for security_id 9
+2025-03-10 17:53:31,935 - INFO - Saved 3 risk metrics
+2025-03-10 17:53:31,936 - INFO - Calculating risk metrics for security_id 10
+2025-03-10 17:53:31,957 - INFO - Saved 3 risk metrics
+2025-03-10 17:53:31,958 - INFO - Calculating risk metrics for security_id 11
+2025-03-10 17:53:31,987 - INFO - Saved 3 risk metrics
+2025-03-10 17:53:31,988 - INFO - Calculating risk metrics for security_id 12
+2025-03-10 17:53:32,012 - INFO - Saved 3 risk metrics
+2025-03-10 17:53:32,013 - INFO - Calculating risk metrics for security_id 13
+2025-03-10 17:53:32,041 - INFO - Saved 3 risk metrics
+2025-03-10 17:53:32,042 - INFO - Calculating risk metrics for security_id 14
+2025-03-10 17:53:32,069 - INFO - Saved 3 risk metrics
+2025-03-10 17:53:32,070 - INFO - Completed risk metrics calculation. Total metrics saved: 24
+2025-03-11 12:59:27,683 - INFO - Calculating risk metrics for security_id 7
+2025-03-11 12:59:27,834 - INFO - Saved 3 risk metrics
+2025-03-11 12:59:27,835 - INFO - Calculating risk metrics for security_id 8
+2025-03-11 12:59:27,858 - INFO - Saved 3 risk metrics
+2025-03-11 12:59:27,859 - INFO - Calculating risk metrics for security_id 9
+2025-03-11 12:59:27,881 - INFO - Saved 3 risk metrics
+2025-03-11 12:59:27,882 - INFO - Calculating risk metrics for security_id 10
+2025-03-11 12:59:27,907 - INFO - Saved 3 risk metrics
+2025-03-11 12:59:27,908 - INFO - Calculating risk metrics for security_id 11
+2025-03-11 12:59:27,929 - INFO - Saved 3 risk metrics
+2025-03-11 12:59:27,930 - INFO - Calculating risk metrics for security_id 12
+2025-03-11 12:59:27,952 - INFO - Saved 3 risk metrics
+2025-03-11 12:59:27,953 - INFO - Calculating risk metrics for security_id 13
+2025-03-11 12:59:27,974 - INFO - Saved 3 risk metrics
+2025-03-11 12:59:27,974 - INFO - Calculating risk metrics for security_id 14
+2025-03-11 12:59:28,018 - INFO - Saved 3 risk metrics
+2025-03-11 12:59:28,019 - INFO - Completed risk metrics calculation. Total metrics saved: 24
+2025-03-11 13:17:49,875 - INFO - Calculating risk metrics for security_id 7
+2025-03-11 13:17:49,910 - INFO - Saved 3 risk metrics
+2025-03-11 13:17:49,911 - INFO - Calculating risk metrics for security_id 8
+2025-03-11 13:17:50,016 - INFO - Saved 3 risk metrics
+2025-03-11 13:17:50,017 - INFO - Calculating risk metrics for security_id 9
+2025-03-11 13:17:50,043 - INFO - Saved 3 risk metrics
+2025-03-11 13:17:50,044 - INFO - Calculating risk metrics for security_id 10
+2025-03-11 13:17:50,070 - INFO - Saved 3 risk metrics
+2025-03-11 13:17:50,071 - INFO - Calculating risk metrics for security_id 11
+2025-03-11 13:17:50,091 - INFO - Saved 3 risk metrics
+2025-03-11 13:17:50,092 - INFO - Calculating risk metrics for security_id 12
+2025-03-11 13:17:50,112 - INFO - Saved 3 risk metrics
+2025-03-11 13:17:50,113 - INFO - Calculating risk metrics for security_id 13
+2025-03-11 13:17:50,135 - INFO - Saved 3 risk metrics
+2025-03-11 13:17:50,136 - INFO - Calculating risk metrics for security_id 14
+2025-03-11 13:17:50,157 - INFO - Saved 3 risk metrics
+2025-03-11 13:17:50,159 - INFO - Completed risk metrics calculation. Total metrics saved: 24
+2025-03-11 13:45:26,213 - INFO - Calculating risk metrics for security_id 7
+2025-03-11 13:45:26,507 - INFO - Saved 3 risk metrics
+2025-03-11 13:45:26,509 - INFO - Calculating risk metrics for security_id 8
+2025-03-11 13:45:26,564 - INFO - Saved 3 risk metrics
+2025-03-11 13:45:26,564 - INFO - Calculating risk metrics for security_id 9
+2025-03-11 13:45:26,622 - INFO - Saved 3 risk metrics
+2025-03-11 13:45:26,623 - INFO - Calculating risk metrics for security_id 10
+2025-03-11 13:45:26,680 - INFO - Saved 3 risk metrics
+2025-03-11 13:45:26,681 - INFO - Calculating risk metrics for security_id 11
+2025-03-11 13:45:26,739 - INFO - Saved 3 risk metrics
+2025-03-11 13:45:26,740 - INFO - Calculating risk metrics for security_id 12
+2025-03-11 13:45:26,786 - INFO - Saved 3 risk metrics
+2025-03-11 13:45:26,788 - INFO - Calculating risk metrics for security_id 13
+2025-03-11 13:45:26,833 - INFO - Saved 3 risk metrics
+2025-03-11 13:45:26,836 - INFO - Calculating risk metrics for security_id 14
+2025-03-11 13:45:26,880 - INFO - Saved 3 risk metrics
+2025-03-11 13:45:26,904 - INFO - Completed risk metrics calculation. Total metrics saved: 24
+2025-03-11 14:49:41,906 - INFO - Calculating risk metrics for security_id 7
+2025-03-11 14:49:42,365 - INFO - Saved 3 risk metrics
+2025-03-11 14:49:42,366 - INFO - Calculating risk metrics for security_id 8
+2025-03-11 14:49:42,389 - INFO - Saved 3 risk metrics
+2025-03-11 14:49:42,390 - INFO - Calculating risk metrics for security_id 9
+2025-03-11 14:49:42,410 - INFO - Saved 3 risk metrics
+2025-03-11 14:49:42,410 - INFO - Calculating risk metrics for security_id 10
+2025-03-11 14:49:42,439 - INFO - Saved 3 risk metrics
+2025-03-11 14:49:42,443 - INFO - Calculating risk metrics for security_id 11
+2025-03-11 14:49:42,468 - INFO - Saved 3 risk metrics
+2025-03-11 14:49:42,468 - INFO - Calculating risk metrics for security_id 12
+2025-03-11 14:49:42,494 - INFO - Saved 3 risk metrics
+2025-03-11 14:49:42,494 - INFO - Calculating risk metrics for security_id 13
+2025-03-11 14:49:42,517 - INFO - Saved 3 risk metrics
+2025-03-11 14:49:42,518 - INFO - Calculating risk metrics for security_id 14
+2025-03-11 14:49:42,544 - INFO - Saved 3 risk metrics
+2025-03-11 14:49:42,583 - INFO - Completed risk metrics calculation. Total metrics saved: 24
+2025-03-11 14:59:04,515 - INFO - Calculating risk metrics for security_id 7
+2025-03-11 14:59:04,568 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:04,569 - INFO - Calculating risk metrics for security_id 8
+2025-03-11 14:59:04,602 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:04,603 - INFO - Calculating risk metrics for security_id 9
+2025-03-11 14:59:04,633 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:04,633 - INFO - Calculating risk metrics for security_id 10
+2025-03-11 14:59:04,663 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:04,665 - INFO - Calculating risk metrics for security_id 11
+2025-03-11 14:59:04,697 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:04,700 - INFO - Calculating risk metrics for security_id 12
+2025-03-11 14:59:04,732 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:04,734 - INFO - Calculating risk metrics for security_id 13
+2025-03-11 14:59:04,767 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:04,768 - INFO - Calculating risk metrics for security_id 14
+2025-03-11 14:59:04,801 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:04,802 - INFO - Completed risk metrics calculation. Total metrics saved: 24
+2025-03-11 14:59:56,912 - INFO - Calculating risk metrics for security_id 7
+2025-03-11 14:59:56,966 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:56,969 - INFO - Calculating risk metrics for security_id 8
+2025-03-11 14:59:57,004 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:57,005 - INFO - Calculating risk metrics for security_id 9
+2025-03-11 14:59:57,046 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:57,050 - INFO - Calculating risk metrics for security_id 10
+2025-03-11 14:59:57,084 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:57,102 - INFO - Calculating risk metrics for security_id 11
+2025-03-11 14:59:57,161 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:57,162 - INFO - Calculating risk metrics for security_id 12
+2025-03-11 14:59:57,198 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:57,200 - INFO - Calculating risk metrics for security_id 13
+2025-03-11 14:59:57,238 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:57,239 - INFO - Calculating risk metrics for security_id 14
+2025-03-11 14:59:57,274 - INFO - Saved 3 risk metrics
+2025-03-11 14:59:57,280 - INFO - Completed risk metrics calculation. Total metrics saved: 24

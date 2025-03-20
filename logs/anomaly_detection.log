@@ -1,0 +1,288 @@
+2025-03-10 17:11:45,870 - ERROR - Error loading config: [Errno 2] No such file or directory: 'config/config.yml'
+2025-03-10 17:12:16,439 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:12:17,479 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:12:17,498 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:12:17,519 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:12:17,541 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:12:17,564 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:12:17,593 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:12:17,615 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:12:17,639 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:13:41,448 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:13:42,122 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:13:42,183 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:13:42,206 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:13:42,230 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:13:42,254 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:13:42,283 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:13:42,304 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:13:42,328 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:14:20,023 - ERROR - Database connection error: (psycopg2.OperationalError) could not translate host name "1234@localhost" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-10 17:16:07,893 - ERROR - Database connection error: (psycopg2.OperationalError) could not translate host name "1234@localhost" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-03-10 17:18:42,357 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:18:42,796 - ERROR - An error occurred: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:23:08,730 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:23:09,050 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:23:09,064 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:23:09,065 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:23:09,068 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:23:09,069 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:23:09,071 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:23:09,072 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:23:09,077 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:23:09,078 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:23:09,083 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:23:09,083 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:23:09,088 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:23:09,089 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:23:09,092 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:23:09,093 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:23:09,098 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:23:09,099 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:25:42,911 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:25:43,480 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:25:43,537 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:25:43,537 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:25:43,541 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:25:43,542 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:25:43,545 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:25:43,545 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:25:43,550 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:25:43,551 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:25:43,554 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:25:43,555 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:25:43,558 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:25:43,559 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:25:43,563 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:25:43,563 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:25:43,568 - ERROR - Error fetching recent prices: 'Connection' object has no attribute 'cursor'
+2025-03-10 17:25:43,569 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:26:44,399 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:26:44,717 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:26:44,741 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:26:44,745 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:26:44,749 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:26:44,750 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:26:44,755 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:26:44,757 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:26:44,762 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:26:44,763 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:26:44,769 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:26:44,769 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:26:44,772 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:26:44,773 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:26:44,776 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:26:44,777 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:26:44,783 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:26:44,783 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:31:49,951 - ERROR - Fatal error: Query must be a string unless using sqlalchemy.
+2025-03-10 17:33:37,941 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:33:38,536 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:33:38,604 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:33:38,604 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:33:38,607 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:33:38,607 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:33:38,610 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:33:38,611 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:33:38,613 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:33:38,614 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:33:38,616 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:33:38,616 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:33:38,620 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:33:38,621 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:33:38,624 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:33:38,625 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:33:38,627 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:33:38,629 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:35:17,727 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:35:18,020 - INFO - Database connection test successful.
+2025-03-10 17:35:18,027 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:35:18,040 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:35:18,041 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:35:18,044 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:35:18,044 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:35:18,047 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:35:18,047 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:35:18,051 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:35:18,051 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:35:18,054 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:35:18,055 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:35:18,059 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:35:18,059 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:35:18,063 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:35:18,064 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:35:18,068 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:35:18,068 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:37:49,606 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:37:49,616 - INFO - Connecting to PostgreSQL: host=localhost, port=5432, dbname=financial_pipeline, user=pipeline_user
+2025-03-10 17:37:49,889 - INFO - select pg_catalog.version()
+2025-03-10 17:37:49,890 - INFO - [raw sql] {}
+2025-03-10 17:37:49,893 - INFO - select current_schema()
+2025-03-10 17:37:49,894 - INFO - [raw sql] {}
+2025-03-10 17:37:49,896 - INFO - show standard_conforming_strings
+2025-03-10 17:37:49,898 - INFO - [raw sql] {}
+2025-03-10 17:37:49,902 - INFO - SELECT 1
+2025-03-10 17:37:49,904 - INFO - [generated in 0.00199s] {}
+2025-03-10 17:37:49,906 - INFO - Database connection test successful.
+2025-03-10 17:37:49,909 - INFO - SELECT id, symbol FROM securities
+2025-03-10 17:37:49,910 - INFO - [generated in 0.00175s] {}
+2025-03-10 17:37:49,918 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:37:49,936 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:37:49,937 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:37:49,940 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:37:49,941 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:37:49,945 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:37:49,947 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:37:49,951 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:37:49,952 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:37:49,955 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:37:49,956 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:37:49,960 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:37:49,961 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:37:49,964 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:37:49,965 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:37:49,969 - ERROR - Error fetching recent prices: 'Engine' object has no attribute 'cursor'
+2025-03-10 17:37:49,970 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:39:31,271 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:39:31,286 - INFO - Connecting to PostgreSQL: host=localhost, port=5432, dbname=financial_pipeline, user=pipeline_user
+2025-03-10 17:39:31,471 - INFO - Database connection test successful.
+2025-03-10 17:39:31,477 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:39:32,823 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:39:32,844 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:39:32,871 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:39:32,899 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:39:32,927 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:39:32,958 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:39:32,990 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:39:33,016 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:40:35,030 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:40:35,040 - INFO - Connecting to PostgreSQL: host=localhost, port=5432, dbname=financial_pipeline, user=pipeline_user
+2025-03-10 17:40:35,239 - INFO - Database connection test successful.
+2025-03-10 17:40:35,243 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:40:36,002 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:40:36,022 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:40:36,042 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:40:36,061 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:40:36,084 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:40:36,106 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:40:36,124 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:40:36,144 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:42:17,175 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:42:17,184 - INFO - Connecting to PostgreSQL: host=localhost, port=5432, dbname=financial_pipeline, user=pipeline_user
+2025-03-10 17:42:17,371 - INFO - Database connection test successful.
+2025-03-10 17:42:17,377 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:42:18,079 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:42:18,099 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:42:18,119 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:42:18,141 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:42:18,162 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:42:18,188 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:42:18,209 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:42:18,236 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:54:09,722 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:54:10,141 - INFO - Database connection test successful.
+2025-03-10 17:54:10,149 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:54:10,164 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:54:10,164 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:54:10,168 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:54:10,168 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:54:10,171 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:54:10,172 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:54:10,176 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:54:10,177 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:54:10,180 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:54:10,181 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:54:10,185 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:54:10,187 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:54:10,191 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:54:10,192 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:54:10,195 - ERROR - Error fetching recent prices: Query must be a string unless using sqlalchemy.
+2025-03-10 17:54:10,197 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:54:36,150 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:54:36,158 - INFO - Connecting to PostgreSQL: host=localhost, port=5432, dbname=financial_pipeline, user=pipeline_user
+2025-03-10 17:54:36,328 - INFO - Database connection test successful.
+2025-03-10 17:54:36,333 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:54:37,210 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:54:37,232 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:54:37,256 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:54:37,285 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:54:37,316 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:54:37,340 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:54:37,372 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:54:37,400 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-10 17:54:56,756 - INFO - DB_PASSWORD loaded successfully.
+2025-03-10 17:54:56,765 - INFO - Connecting to PostgreSQL: host=localhost, port=5432, dbname=financial_pipeline, user=pipeline_user
+2025-03-10 17:54:56,928 - INFO - Database connection test successful.
+2025-03-10 17:54:56,934 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-10 17:54:57,586 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-10 17:54:57,606 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-10 17:54:57,626 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-10 17:54:57,646 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-10 17:54:57,669 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-10 17:54:57,692 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-10 17:54:57,713 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-10 17:54:57,732 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-11 12:59:19,895 - INFO - DB_PASSWORD loaded successfully.
+2025-03-11 12:59:19,923 - INFO - Connecting to PostgreSQL: host=localhost, port=5432, dbname=financial_pipeline, user=pipeline_user
+2025-03-11 12:59:20,116 - INFO - Database connection test successful.
+2025-03-11 12:59:20,122 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-11 12:59:21,859 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-11 12:59:21,886 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-11 12:59:21,912 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-11 12:59:21,939 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-11 12:59:21,964 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-11 12:59:21,989 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-11 12:59:22,022 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-11 12:59:22,048 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-11 12:59:34,730 - INFO - DB_PASSWORD loaded successfully.
+2025-03-11 12:59:34,738 - INFO - Connecting to PostgreSQL: host=localhost, port=5432, dbname=financial_pipeline, user=pipeline_user
+2025-03-11 12:59:34,913 - INFO - Database connection test successful.
+2025-03-11 12:59:34,918 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-11 12:59:35,695 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-11 12:59:35,728 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-11 12:59:35,751 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-11 12:59:35,780 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-11 12:59:35,807 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-11 12:59:35,831 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-11 12:59:35,863 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-11 12:59:35,886 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-11 13:17:52,060 - INFO - DB_PASSWORD loaded successfully.
+2025-03-11 13:17:52,068 - INFO - Connecting to PostgreSQL: host=localhost, port=5432, dbname=financial_pipeline, user=pipeline_user
+2025-03-11 13:17:52,248 - INFO - Database connection test successful.
+2025-03-11 13:17:52,253 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-11 13:17:52,957 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-11 13:17:52,981 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-11 13:17:53,004 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-11 13:17:53,025 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-11 13:17:53,046 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-11 13:17:53,066 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-11 13:17:53,092 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-11 13:17:53,114 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-11 13:45:28,842 - INFO - DB_PASSWORD loaded successfully.
+2025-03-11 13:45:28,948 - INFO - Connecting to PostgreSQL: host=localhost, port=5432, dbname=financial_pipeline, user=pipeline_user
+2025-03-11 13:45:29,130 - INFO - Database connection test successful.
+2025-03-11 13:45:29,137 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-11 13:45:30,442 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-11 13:45:30,466 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-11 13:45:30,496 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-11 13:45:30,532 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-11 13:45:30,560 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-11 13:45:30,588 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-11 13:45:30,624 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-11 13:45:30,675 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-11 15:00:00,330 - INFO - DB_PASSWORD loaded successfully.
+2025-03-11 15:00:00,361 - INFO - Connecting to PostgreSQL: host=localhost, port=5432, dbname=financial_pipeline, user=pipeline_user
+2025-03-11 15:00:00,593 - INFO - Database connection test successful.
+2025-03-11 15:00:00,600 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-11 15:00:01,959 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-11 15:00:02,001 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-11 15:00:02,050 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-11 15:00:02,087 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-11 15:00:02,128 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-11 15:00:02,154 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-11 15:00:02,184 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-11 15:00:02,212 - INFO - Completed anomaly detection. Total anomalies found: 0

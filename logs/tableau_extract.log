@@ -1,0 +1,104 @@
+2025-03-10 17:55:38,568 - ERROR - Error loading config: [Errno 2] No such file or directory: 'config/config.yml'
+2025-03-10 17:56:01,456 - INFO - Extracted 1992 price records
+2025-03-10 17:56:01,610 - INFO - Saved price data to data/tableau/price_data_20250310_175600.csv
+2025-03-10 17:56:01,641 - ERROR - Error extracting risk metrics: Execution failed on sql '
+        SELECT 
+            s.symbol,
+            s.name,
+            s.sector,
+            s.industry,
+            rm.date,
+            rm.window,
+            rm.var_95,
+            rm.var_99,
+            rm.cvar_95,
+            rm.cvar_99,
+            rm.sharpe_ratio,
+            rm.sortino_ratio,
+            rm.max_drawdown
+        FROM risk_metrics rm
+        JOIN securities s ON rm.security_id = s.id
+        ORDER BY s.symbol, rm.date, rm.window
+        ': column rm.window does not exist
+LINE 8:             rm.window,
+                    ^
+
+2025-03-10 17:56:01,729 - WARNING - No anomalies found
+2025-03-10 17:56:01,730 - INFO - Tableau extract generation completed
+2025-03-10 17:57:33,888 - INFO - Extracted 1992 price records
+2025-03-10 17:57:33,975 - INFO - Saved price data to data/tableau/price_data_20250310_175733.csv
+2025-03-10 17:57:34,550 - INFO - Risk metrics table columns: id, security_id, date, window_days, var_95, var_99, cvar_95, cvar_99, sharpe_ratio, sortino_ratio, max_drawdown, created_at
+2025-03-10 17:57:34,559 - ERROR - Error extracting risk metrics: Execution failed on sql '
+        SELECT 
+            s.symbol,
+            s.name,
+            s.sector,
+            s.industry,
+            rm.date,
+            rm.rolling_window AS window,
+            rm.var_95,
+            rm.var_99,
+            rm.cvar_95,
+            rm.cvar_99,
+            rm.sharpe_ratio,
+            rm.sortino_ratio,
+            rm.max_drawdown
+        FROM risk_metrics rm
+        JOIN securities s ON rm.security_id = s.id
+        ORDER BY s.symbol, rm.date, rm.rolling_window
+        ': column rm.rolling_window does not exist
+LINE 8:             rm.rolling_window AS window,
+                    ^
+
+2025-03-10 17:57:34,574 - ERROR - Error in fallback risk metrics query: Execution failed on sql '
+            SELECT 
+                s.symbol,
+                s.name,
+                s.sector,
+                s.industry,
+                rm.date,
+                COALESCE(rm.rolling_window, rm.window, 30) AS window
+            FROM risk_metrics rm
+            JOIN securities s ON rm.security_id = s.id
+            ORDER BY s.symbol, rm.date
+            ': column rm.rolling_window does not exist
+LINE 8:                 COALESCE(rm.rolling_window, rm.window, 30) A...
+                                 ^
+
+2025-03-10 17:57:34,588 - WARNING - No anomalies found
+2025-03-10 17:57:34,589 - INFO - Tableau extract generation completed
+2025-03-10 17:58:48,185 - INFO - Extracted 1992 price records
+2025-03-10 17:58:48,235 - INFO - Saved price data to data/tableau/price_data_20250310_175847.csv
+2025-03-10 17:58:48,285 - INFO - Risk metrics table columns: id, security_id, date, window_days, var_95, var_99, cvar_95, cvar_99, sharpe_ratio, sortino_ratio, max_drawdown, created_at
+2025-03-10 17:58:48,298 - INFO - Extracted 24 risk metric records
+2025-03-10 17:58:48,396 - INFO - Saved risk metrics to data/tableau/risk_metrics_20250310_175847.csv
+2025-03-10 17:58:48,403 - WARNING - No anomalies found
+2025-03-10 17:58:48,404 - INFO - Tableau extract generation completed
+2025-03-11 13:01:27,846 - INFO - Extracted 2000 price records
+2025-03-11 13:01:28,008 - INFO - Saved price data to data/tableau/price_data_20250311_130127.csv
+2025-03-11 13:01:28,429 - INFO - Risk metrics table columns: id, security_id, date, window_days, var_95, var_99, cvar_95, cvar_99, sharpe_ratio, sortino_ratio, max_drawdown, created_at
+2025-03-11 13:01:28,445 - INFO - Extracted 48 risk metric records
+2025-03-11 13:01:28,450 - INFO - Saved risk metrics to data/tableau/risk_metrics_20250311_130127.csv
+2025-03-11 13:01:28,463 - WARNING - No anomalies found
+2025-03-11 13:01:28,464 - INFO - Tableau extract generation completed
+2025-03-11 13:17:55,860 - INFO - Extracted 2000 price records
+2025-03-11 13:17:56,040 - INFO - Saved price data to data/tableau/price_data_20250311_131755.csv
+2025-03-11 13:17:56,091 - INFO - Risk metrics table columns: id, security_id, date, window_days, var_95, var_99, cvar_95, cvar_99, sharpe_ratio, sortino_ratio, max_drawdown, created_at
+2025-03-11 13:17:56,125 - INFO - Extracted 48 risk metric records
+2025-03-11 13:17:56,130 - INFO - Saved risk metrics to data/tableau/risk_metrics_20250311_131755.csv
+2025-03-11 13:17:56,141 - WARNING - No anomalies found
+2025-03-11 13:17:56,142 - INFO - Tableau extract generation completed
+2025-03-11 13:45:33,689 - INFO - Extracted 2000 price records
+2025-03-11 13:45:33,791 - INFO - Saved price data to data/tableau/price_data_20250311_134532.csv
+2025-03-11 13:45:33,873 - INFO - Risk metrics table columns: id, security_id, date, window_days, var_95, var_99, cvar_95, cvar_99, sharpe_ratio, sortino_ratio, max_drawdown, created_at
+2025-03-11 13:45:33,896 - INFO - Extracted 48 risk metric records
+2025-03-11 13:45:33,900 - INFO - Saved risk metrics to data/tableau/risk_metrics_20250311_134532.csv
+2025-03-11 13:45:33,912 - WARNING - No anomalies found
+2025-03-11 13:45:33,913 - INFO - Tableau extract generation completed
+2025-03-11 15:00:06,109 - INFO - Extracted 2000 price records
+2025-03-11 15:00:06,210 - INFO - Saved price data to data/tableau/price_data_20250311_150004.csv
+2025-03-11 15:00:06,522 - INFO - Risk metrics table columns: id, security_id, date, window_days, var_95, var_99, cvar_95, cvar_99, sharpe_ratio, sortino_ratio, max_drawdown, created_at
+2025-03-11 15:00:06,673 - INFO - Extracted 48 risk metric records
+2025-03-11 15:00:06,792 - INFO - Saved risk metrics to data/tableau/risk_metrics_20250311_150004.csv
+2025-03-11 15:00:07,061 - WARNING - No anomalies found
+2025-03-11 15:00:07,071 - INFO - Tableau extract generation completed

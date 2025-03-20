@@ -1,0 +1,137 @@
+2025-03-10 12:26:00,257 - ERROR - Error loading config: [Errno 2] No such file or directory: 'config/config.yml'
+2025-03-10 12:28:25,573 - ERROR - Error loading config: [Errno 2] No such file or directory: 'config/config.yml'
+2025-03-10 12:28:38,976 - ERROR - Error loading config: [Errno 2] No such file or directory: 'config/config.yml'
+2025-03-10 12:29:51,521 - ERROR - Error loading config: [Errno 2] No such file or directory: 'config/config.yml'
+2025-03-10 12:31:25,203 - ERROR - Error loading config: [Errno 2] No such file or directory: 'config/config.yml'
+2025-03-10 12:31:48,131 - INFO - Connecting to PostgreSQL database...
+2025-03-10 12:31:48,508 - ERROR - Database setup error: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-03-10 12:32:03,465 - INFO - Connecting to PostgreSQL database...
+2025-03-10 12:32:03,927 - ERROR - Schema file not found: db/schema.sql
+2025-03-10 12:32:59,337 - INFO - Connecting to PostgreSQL database...
+2025-03-10 12:32:59,853 - ERROR - Error executing SQL from financial_pipeline\src\db\schema.sql: syntax error at or near "window"
+LINE 35:     window INTEGER NOT NULL, -- in days
+             ^
+
+2025-03-10 12:32:59,855 - ERROR - Failed to create database schema
+2025-03-10 12:38:55,820 - INFO - Connecting to PostgreSQL database...
+2025-03-10 12:38:56,064 - ERROR - Error executing SQL from financial_pipeline\src\db\schema.sql: syntax error at or near "window"
+LINE 41:     UNIQUE (security_id, date, window)
+                                        ^
+
+2025-03-10 12:38:56,066 - ERROR - Failed to create database schema
+2025-03-10 12:39:34,512 - INFO - Connecting to PostgreSQL database...
+2025-03-10 12:39:34,686 - ERROR - Error executing SQL from financial_pipeline\src\db\schema.sql: syntax error at or near "window"
+LINE 41:     UNIQUE (security_id, date, window)
+                                        ^
+
+2025-03-10 12:39:34,688 - ERROR - Failed to create database schema
+2025-03-10 12:41:16,162 - INFO - Connecting to PostgreSQL database...
+2025-03-10 12:41:16,729 - ERROR - Error executing SQL from financial_pipeline\src\db\schema.sql: permission denied for schema public
+LINE 1: CREATE TABLE IF NOT EXISTS securities (
+                                   ^
+
+2025-03-10 12:41:16,731 - ERROR - Failed to create database schema
+2025-03-10 12:51:02,986 - INFO - Connecting to PostgreSQL database...
+2025-03-10 12:51:03,164 - ERROR - Error executing SQL from financial_pipeline\src\db\schema.sql: permission denied for schema public
+LINE 1: CREATE TABLE IF NOT EXISTS securities (
+                                   ^
+
+2025-03-10 12:51:03,166 - ERROR - Failed to create database schema
+2025-03-10 12:58:34,322 - INFO - Connecting to PostgreSQL database...
+2025-03-10 12:58:34,472 - ERROR - Database setup error: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-03-10 12:59:04,122 - INFO - Connecting to PostgreSQL database...
+2025-03-10 12:59:04,268 - ERROR - Database setup error: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-03-10 12:59:15,144 - INFO - Connecting to PostgreSQL database...
+2025-03-10 12:59:15,300 - ERROR - Database setup error: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-03-10 13:04:28,089 - INFO - Connecting to PostgreSQL database...
+2025-03-10 13:04:28,253 - ERROR - Database setup error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "pipeline_user"
+
+2025-03-10 13:04:47,748 - INFO - Connecting to PostgreSQL database...
+2025-03-10 13:04:48,843 - INFO - Successfully executed SQL from financial_pipeline\src\db\schema.sql
+2025-03-10 13:04:48,844 - INFO - Database schema created successfully
+2025-03-10 13:05:06,458 - INFO - Connecting to PostgreSQL database...
+2025-03-10 13:05:06,624 - ERROR - Database setup error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "pipeline_user"
+
+2025-03-10 13:05:15,852 - INFO - Connecting to PostgreSQL database...
+2025-03-10 13:05:16,030 - INFO - Successfully executed SQL from financial_pipeline\src\db\schema.sql
+2025-03-10 13:05:16,031 - INFO - Database schema created successfully
+2025-03-10 13:09:15,038 - INFO - Connecting to PostgreSQL database...
+2025-03-10 13:09:15,222 - INFO - Successfully executed SQL from financial_pipeline\src\db\schema.sql
+2025-03-10 13:09:15,223 - INFO - Database schema created successfully
+2025-03-10 13:57:57,556 - INFO - Connecting to PostgreSQL database...
+2025-03-10 13:57:58,196 - ERROR - Database setup error: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-03-10 13:58:41,904 - INFO - Connecting to PostgreSQL database...
+2025-03-10 13:58:42,057 - ERROR - Database setup error: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-03-10 14:20:56,126 - INFO - Connecting to PostgreSQL database...
+2025-03-10 14:20:56,723 - INFO - Successfully executed SQL from financial_pipeline\src\db\schema.sql
+2025-03-10 14:20:56,725 - INFO - Database schema created successfully
+2025-03-10 17:01:07,726 - INFO - Connecting to PostgreSQL database...
+2025-03-10 17:01:08,484 - INFO - Successfully executed SQL from financial_pipeline\src\db\schema.sql
+2025-03-10 17:01:08,485 - INFO - Database schema created successfully
+2025-03-10 17:02:59,215 - INFO - Connecting to PostgreSQL database...
+2025-03-10 17:02:59,512 - ERROR - Error executing SQL from financial_pipeline\src\db\schema.sql: syntax error at or near "COLUMN"
+LINE 7:     securities ADD COLUMN status VARCHAR(50),
+                           ^
+
+2025-03-10 17:02:59,514 - ERROR - Failed to create database schema
+2025-03-10 17:03:25,696 - INFO - Connecting to PostgreSQL database...
+2025-03-10 17:03:25,883 - INFO - Successfully executed SQL from financial_pipeline\src\db\schema.sql
+2025-03-10 17:03:25,883 - INFO - Database schema created successfully
+2025-03-10 17:10:20,662 - INFO - Connecting to PostgreSQL database...
+2025-03-10 17:10:20,861 - INFO - Successfully executed SQL from financial_pipeline\src\db\schema.sql
+2025-03-10 17:10:20,862 - INFO - Database schema created successfully
+2025-03-11 12:58:40,670 - INFO - Connecting to PostgreSQL database...
+2025-03-11 12:58:41,309 - INFO - Successfully executed SQL from financial_pipeline\src\db\schema.sql
+2025-03-11 12:58:41,309 - INFO - Database schema created successfully
+2025-03-11 13:01:02,816 - INFO - DB_PASSWORD loaded successfully.
+2025-03-11 13:01:02,820 - INFO - Starting integration test
+2025-03-11 13:01:02,827 - INFO - Setting up database...
+2025-03-11 13:01:02,834 - INFO - Connecting to PostgreSQL database...
+2025-03-11 13:01:03,019 - INFO - Successfully executed SQL from financial_pipeline\src\db\schema.sql
+2025-03-11 13:01:03,020 - INFO - Database schema created successfully
+2025-03-11 13:01:03,485 - INFO - Running data ingestion...
+2025-03-11 13:01:03,671 - INFO - No new securities to insert
+2025-03-11 13:01:03,671 - INFO - Fetching data for batch 1/1
+2025-03-11 13:01:14,761 - INFO - Inserted/updated 14448 price records
+2025-03-11 13:01:14,765 - INFO - Data ingestion completed successfully
+2025-03-11 13:01:14,824 - INFO - Securities count: 8
+2025-03-11 13:01:14,825 - INFO - Daily prices count: 14448
+2025-03-11 13:01:14,837 - INFO - Calculating risk metrics...
+2025-03-11 13:01:15,016 - INFO - Calculating risk metrics for security_id 7
+2025-03-11 13:01:15,046 - INFO - Saved 3 risk metrics
+2025-03-11 13:01:15,047 - INFO - Calculating risk metrics for security_id 8
+2025-03-11 13:01:15,153 - INFO - Saved 3 risk metrics
+2025-03-11 13:01:15,154 - INFO - Calculating risk metrics for security_id 9
+2025-03-11 13:01:15,175 - INFO - Saved 3 risk metrics
+2025-03-11 13:01:15,177 - INFO - Calculating risk metrics for security_id 10
+2025-03-11 13:01:15,196 - INFO - Saved 3 risk metrics
+2025-03-11 13:01:15,197 - INFO - Calculating risk metrics for security_id 11
+2025-03-11 13:01:15,216 - INFO - Saved 3 risk metrics
+2025-03-11 13:01:15,217 - INFO - Calculating risk metrics for security_id 12
+2025-03-11 13:01:15,235 - INFO - Saved 3 risk metrics
+2025-03-11 13:01:15,237 - INFO - Calculating risk metrics for security_id 13
+2025-03-11 13:01:15,256 - INFO - Saved 3 risk metrics
+2025-03-11 13:01:15,257 - INFO - Calculating risk metrics for security_id 14
+2025-03-11 13:01:15,277 - INFO - Saved 3 risk metrics
+2025-03-11 13:01:15,278 - INFO - Completed risk metrics calculation. Total metrics saved: 24
+2025-03-11 13:01:15,286 - INFO - Risk metrics count: 48
+2025-03-11 13:01:15,298 - INFO - Detecting anomalies...
+2025-03-11 13:01:15,306 - INFO - Connecting to PostgreSQL: host=localhost, port=5432, dbname=financial_pipeline, user=pipeline_user
+2025-03-11 13:01:15,473 - INFO - Database connection test successful.
+2025-03-11 13:01:15,480 - INFO - Detecting anomalies for AAPL (ID: 7)
+2025-03-11 13:01:16,047 - INFO - Detecting anomalies for MSFT (ID: 8)
+2025-03-11 13:01:16,068 - INFO - Detecting anomalies for GOOGL (ID: 9)
+2025-03-11 13:01:16,088 - INFO - Detecting anomalies for AMZN (ID: 10)
+2025-03-11 13:01:16,110 - INFO - Detecting anomalies for TSLA (ID: 11)
+2025-03-11 13:01:16,132 - INFO - Detecting anomalies for ^GSPC (ID: 12)
+2025-03-11 13:01:16,154 - INFO - Detecting anomalies for ^DJI (ID: 13)
+2025-03-11 13:01:16,175 - INFO - Detecting anomalies for ^IXIC (ID: 14)
+2025-03-11 13:01:16,200 - INFO - Completed anomaly detection. Total anomalies found: 0
+2025-03-11 13:01:16,288 - INFO - Anomalies count: 0
+2025-03-11 13:01:16,305 - INFO - All integration tests passed!

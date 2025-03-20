@@ -1,0 +1,92 @@
+2025-03-10 13:09:35,767 - ERROR - Error loading config: [Errno 2] No such file or directory: 'config/config.yml'
+2025-03-10 13:10:18,820 - ERROR - An error occurred: 'list' object has no attribute 'get'
+2025-03-10 13:59:46,986 - ERROR - Database connection error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "pipeline_user"
+
+2025-03-10 13:59:51,126 - ERROR - Database connection error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "pipeline_user"
+
+2025-03-10 14:00:11,645 - ERROR - Database connection error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "pipeline_user"
+
+2025-03-10 14:00:28,684 - ERROR - Database connection error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "pipeline_user"
+
+2025-03-10 14:21:55,201 - ERROR - An error occurred: 'list' object has no attribute 'get'
+2025-03-10 14:24:23,894 - ERROR - An error occurred: 'list' object has no attribute 'get'
+2025-03-10 14:32:38,623 - ERROR - An error occurred: 'list' object has no attribute 'get'
+2025-03-10 14:41:27,322 - INFO - No symbol source found, using web scraping
+2025-03-10 14:41:27,325 - ERROR - Error getting S&P 500 symbols: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-03-10 14:41:33,932 - ERROR - Error inserting securities: duplicate key value violates unique constraint "securities_symbol_key"
+DETAIL:  Key (symbol)=(AAPL) already exists.
+
+2025-03-10 14:41:33,933 - INFO - Fetching data for batch 1/1
+2025-03-10 14:41:43,739 - WARNING - Symbol AAPL not found in database, skipping
+2025-03-10 14:41:43,741 - WARNING - Symbol MSFT not found in database, skipping
+2025-03-10 14:41:43,742 - WARNING - Symbol GOOGL not found in database, skipping
+2025-03-10 14:41:43,743 - WARNING - Symbol AMZN not found in database, skipping
+2025-03-10 14:41:43,745 - WARNING - Symbol TSLA not found in database, skipping
+2025-03-10 14:41:43,746 - WARNING - Symbol AAPL not found in database, skipping
+2025-03-10 14:41:43,748 - WARNING - Symbol MSFT not found in database, skipping
+2025-03-10 14:41:43,750 - WARNING - Symbol AMZN not found in database, skipping
+2025-03-10 14:41:43,751 - WARNING - Symbol GOOGL not found in database, skipping
+2025-03-10 14:41:43,752 - WARNING - Symbol META not found in database, skipping
+2025-03-10 14:41:43,754 - WARNING - Symbol ^GSPC not found in database, skipping
+2025-03-10 14:41:43,755 - WARNING - Symbol ^DJI not found in database, skipping
+2025-03-10 14:41:43,756 - WARNING - Symbol ^IXIC not found in database, skipping
+2025-03-10 14:41:43,757 - INFO - Inserted/updated 0 price records
+2025-03-10 14:41:43,758 - INFO - Data ingestion completed successfully
+2025-03-10 16:01:55,045 - INFO - No symbol source found, using web scraping
+2025-03-10 16:05:24,997 - INFO - No symbol source found, using web scraping
+2025-03-10 16:05:45,794 - INFO - No symbol source found, using web scraping
+2025-03-10 16:07:43,604 - INFO - No symbol source found, using web scraping
+2025-03-10 16:09:09,808 - INFO - No symbol source found, using web scraping
+2025-03-10 16:13:54,139 - INFO - No symbol source found, using web scraping
+2025-03-10 16:14:38,411 - INFO - No symbol source found, using web scraping
+2025-03-10 16:17:48,348 - ERROR - Database connection error: string indices must be integers, not 'str'
+2025-03-10 16:18:36,761 - INFO - Inserted 8 new securities
+2025-03-10 16:18:36,762 - INFO - Fetching data for batch 1/1
+2025-03-10 16:18:48,430 - INFO - Inserted/updated 14440 price records
+2025-03-10 16:18:48,433 - INFO - Data ingestion completed successfully
+2025-03-10 16:18:59,984 - INFO - No new securities to insert
+2025-03-10 16:18:59,985 - INFO - Fetching data for batch 1/1
+2025-03-10 16:19:11,252 - INFO - Inserted/updated 14440 price records
+2025-03-10 16:19:11,256 - INFO - Data ingestion completed successfully
+2025-03-10 17:01:28,648 - INFO - No new securities to insert
+2025-03-10 17:01:28,673 - INFO - Fetching data for batch 1/1
+2025-03-10 17:01:42,017 - INFO - Inserted/updated 14440 price records
+2025-03-10 17:01:42,021 - INFO - Data ingestion completed successfully
+2025-03-10 17:03:35,445 - INFO - No new securities to insert
+2025-03-10 17:03:35,446 - INFO - Fetching data for batch 1/1
+2025-03-10 17:03:46,361 - INFO - Inserted/updated 14440 price records
+2025-03-10 17:03:46,366 - INFO - Data ingestion completed successfully
+2025-03-10 17:10:33,635 - INFO - No new securities to insert
+2025-03-10 17:10:33,636 - INFO - Fetching data for batch 1/1
+2025-03-10 17:10:44,408 - INFO - Inserted/updated 14440 price records
+2025-03-10 17:10:44,417 - INFO - Data ingestion completed successfully
+2025-03-10 17:11:11,231 - INFO - No new securities to insert
+2025-03-10 17:11:11,233 - INFO - Fetching data for batch 1/1
+2025-03-10 17:11:21,985 - INFO - Inserted/updated 14440 price records
+2025-03-10 17:11:21,990 - INFO - Data ingestion completed successfully
+2025-03-11 12:54:29,715 - ERROR - Database connection error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "pipeline_user"
+
+2025-03-11 12:56:46,017 - ERROR - Database connection error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "pipeline_user"
+
+2025-03-11 12:57:19,166 - ERROR - Database connection error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "pipeline_user"
+
+2025-03-11 12:58:49,386 - INFO - No new securities to insert
+2025-03-11 12:58:49,387 - INFO - Fetching data for batch 1/1
+2025-03-11 12:59:11,445 - INFO - Inserted/updated 14448 price records
+2025-03-11 12:59:11,449 - INFO - Data ingestion completed successfully
+2025-03-11 13:16:45,805 - INFO - No new securities to insert
+2025-03-11 13:16:45,807 - INFO - Fetching data for batch 1/1
+2025-03-11 13:16:56,750 - INFO - Inserted/updated 14448 price records
+2025-03-11 13:16:56,754 - INFO - Data ingestion completed successfully
+2025-03-11 13:17:37,561 - INFO - No new securities to insert
+2025-03-11 13:17:37,562 - INFO - Fetching data for batch 1/1
+2025-03-11 13:17:47,713 - INFO - Inserted/updated 14448 price records
+2025-03-11 13:17:47,717 - INFO - Data ingestion completed successfully
+2025-03-11 13:45:12,133 - INFO - No new securities to insert
+2025-03-11 13:45:12,152 - INFO - Fetching data for batch 1/1
+2025-03-11 13:45:23,949 - INFO - Inserted/updated 14448 price records
+2025-03-11 13:45:23,953 - INFO - Data ingestion completed successfully
+2025-03-11 14:59:33,627 - INFO - No new securities to insert
+2025-03-11 14:59:33,694 - INFO - Fetching data for batch 1/1
+2025-03-11 14:59:49,102 - INFO - Inserted/updated 14448 price records
+2025-03-11 14:59:49,110 - INFO - Data ingestion completed successfully
